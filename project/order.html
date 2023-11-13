@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Order Placement </title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+    <div class="outercontainer">
+    <div class="container">
+    <form id="contactForm">
+      <tr>
+        <td>
+            <h1>Order Placement</h1>
+        </td>
+      </tr>
+        <table>
+           
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" autocom plete="off" placeholder="enter your full name">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" inputmode="email" autocomplete="off" placeholder="enter your email">
+                </td>
+            </tr>
+            <tr>
+              <td>
+                  <label for="number"> Contact Number :</label>
+                  <input type="text" id="number" name="number" autocom plete="off" placeholder="enter your Number">
+              </td>
+          </tr>
+          <tr>
+            <td>
+                <label for="number"> Food Item :</label>
+                <input type="text" id="number" name="number" autocom plete="off" placeholder="each table contains 4 seats ">
+            </td>
+          </tr>
+          <td>
+            <label for="quantity">Quantity :</label>
+            <input type="text" id="quantity" name="quantity" autocom plete="off" placeholder=" no. of items / plates ">
+        </td>
+         </tr> 
+            <tr>
+                <td> <label>Sugesstion box : </label>
+                    <input type="textbox" id="Sugesstion" placeholder="your sugesstion" >
+                </td>
+            </tr>
+        
+            <tr>
+                <h4 style="color:red" id="error"></h4>
+            </tr>
+            <tr style="height: 20px;"></tr>
+            <tr>
+                <td>
+                    <input type="submit" value="   Place Order   ">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form><br>
+    </div>
+    </div>
+    Form Details :  <br>
+    <p id="formData"></p>
+</body>
+
+</html>

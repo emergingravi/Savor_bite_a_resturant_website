@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>froms using javascript</title>
+    <script src="form.js"></script>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <div class="outercontainer">
+    <div class="container">
+    <form id="contactForm">
+        <table>
+            <tr>
+                <td>
+                    <h1>Feedback Form :</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" autocom plete="off" placeholder="enter your full name">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" inputmode="email" autocomplete="off" placeholder="enter your email">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="male" , id="male"> Male
+                    <input type="radio" name="gender" , value="female" , id="female"> Female
+                </td>
+            </tr>
+            <tr>
+                <td> <label>Sugesstion box: </label>
+                    <input type="textbox" id="Sugesstion" placeholder="your sugesstion" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="country">Select your country:</label>
+                    <select id="country" name="country">
+                        <option value="nepal">Nepal</option>
+                        <option value="canada">Canada</option>
+                        <option value="uk">United Kingdom</option>
+                        <option value="australia">Australia</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <h4 style="color:red" id="error"></h4>
+            </tr>
+            <tr style="height: 20px;"></tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form><br>
+    </div>
+    </div>
+    Form Details :  <br>
+    <p id="formData">hkjhkjh</p>
+</body>
+
+</html>
